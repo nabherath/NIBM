@@ -1,0 +1,23 @@
+.fullpage{
+	background-color: rgb(160, 200, 229);
+	width:auto;
+	height:800px;
+	
+}
+.col-5{
+	background-color:rgb(241, 241, 245);
+	margin-top:20px ;	
+}
+.col-8{
+	margin: 3px;
+	height:75px;
+}
+.btn{
+	margin: 6px;
+	
+}
+.col-3{
+	padding:0px 200px 0px 0px;
+}
+
+

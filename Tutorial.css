@@ -1,0 +1,52 @@
+@charset "utf-8";
+body{
+	background-color: #FFFFFF;
+}
+form{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	width: 1000px;
+  height: 550px;
+  margin: 30px auto;
+  display:grid;
+  background: #29406C;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px gray, -5px -5px 7px gray;
+  
+}
+#field{
+	border:groove #000000;
+	margin:auto;
+	border-radius: 15px;
+	width:500px;
+	height:500px;
+	background:#2670BB;
+
+}
+#Customer{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight:bolder;
+	text-align:center;
+	font-size: 20px;
+}
+
+input{
+	 
+  padding: 8px;
+  
+  outline: none;
+  
+  border: 1px ridge gray;
+  border-radius: 5px;
+}
+
+
+.btn{
+	width: 150px;
+  margin: 6px;
+  padding: 6px;
+	 outline: none;
+  border: none;
+  border-radius: 20px;
+  color: blackw;
+  font-size: 17px;
+}
