@@ -1,0 +1,88 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align:auto;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin:auto;
+  
+}
+
+
+
+body{
+	padding:0;
+	margin:0;
+	background-color:#4278c3;
+}
+.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    
+  
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  background:#116EB5
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .waches{
+    	margin: 20px;
+    margin-top: 200px;
+		border:0px ;
+		float:left;
+		width:200px;
+		border-radius:5px;
+		box-shadow: 4px 4px 5px 5px rgb(100, 199, 134), -4px -4px 5px 5px rgb(218, 114, 162);
+	    padding:100px 0px 0px 0px;
+		
+}
+.waches:hover{
+	padding: 2px;
+}
+
+.waches img{
+	width:100%;
+	height:50px;
+}
+
+.bname{
+	text-align:center;
+	color:#000000;
+	padding:10px;
+	font-size: 20px;
+}
+.bname button{
+	width:100px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size:18px;
+	font-weight:800;
+	padding:5px;
+	margin:15px ;
+	outline:none;
+	background: #a76969;
+	border-radius:10px;
+}
+.bname button:hover{
+	color:#FFFFFF;
+}
